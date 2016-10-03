@@ -7,10 +7,16 @@ public class Variables2 {
 		int numeroEntero=4;
 		int numeroSinDefinir=0;
 		
-	//Numerós decimales 
+		//Numerós decimales 
 		float decimal=12.5f;
 		double decimalMasLargo=12.5d;
 		
+		//Tipo CHAR
+		char letra='A';
+		String letraString="a";
+		
+		//Tipo BOOLEAN
+		boolean semaforo=true;
 		
 		//Imprimir números enteros
 		System.out.println(numeroEntero);
@@ -20,6 +26,13 @@ public class Variables2 {
 		System.out.println(decimal);
 		System.out.println(decimalMasLargo);
 		
+		//Imprimir CHAR
+		System.out.println(letra);
+		System.out.println(letraString);
+		
+		//Imprimir BOOLEAN
+		System.out.println(semaforo);
+
 	}
 
 }
