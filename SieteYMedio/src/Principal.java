@@ -40,6 +40,23 @@ public class Principal extends JFrame {
 		//Nuestro código.Vamos a crear un objeto de la clase carta, con lo cual hará una llamada al constructor.
 		//tipo nombreVariable= new tipo();
 		Carta sieteBastos=new Carta();
+		sieteBastos.setNumero(-1);//Aunque la variable numero sea privada al hacer una llamada al metodo (público) con el seter, me aparece.
+		sieteBastos.setPalo(Carta.BASTOS);
+		System.out.println("Tengo una carta que es el "+ sieteBastos.getNumero() + " de "+ sieteBastos.getPalo()) ; //En el print metemos el getter
+		
+		/* ESTO ESTÁ COMENTADO
+		 * ************
+		Carta unoOros=new Carta();
+		unoOros.numero=1;
+		unoOros.palo="OROS";
+		System.out.println("Tengo una carta que es el "+ unoOros.numero + " de "+ unoOros.palo) ;
+
+		Carta c1=new Carta();
+		c1.numero=12;
+		c1.palo="COPAS";
+		System.out.println("Tengo una carta que es el "+ c1.numero + " de "+ c1.palo) ;
+		************************
+		*/		
 	}
 	
 		
