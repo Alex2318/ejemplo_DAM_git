@@ -19,7 +19,7 @@ public class Login extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Login(VentanaPrincipal vPrincipal) {
+	public Login(VentanaPrincipal vP) {
 		setTitle("LOGIN");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
@@ -29,6 +29,7 @@ public class Login extends JFrame {
 		contentPane.setLayout(null);
 		
 		referencia=this;//Aquí metemos la referencia para que lo que siga lo haga sobre Login
+		vPrincipal=vP;
 		
 		JButton btnNewButton = new JButton("CERRAR");
 		btnNewButton.addActionListener(new ActionListener() {

@@ -7,7 +7,7 @@ public class Principal {//Apertura clase
 
 		VentanaPrincipal vPrincipal=new VentanaPrincipal();
 		
-		Login login=new Login(vPrincipal);//Nuevo objeto ventana Login
+		Login login=new Login(vPrincipal);//Nuevo objeto ventana Login. Entre paréntesis input de ventana principal.
 		login.setVisible(true);//Así lo hacemos visible
 		
 
