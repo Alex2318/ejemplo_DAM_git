@@ -11,7 +11,7 @@ public class Principal {
 		player1.setArmaActual("Espada");
 		
 		//Generar un mounstro
-		Mounstro ogro=new Mounstro();
+		Monstruo ogro=new Monstruo();
 		ogro.setTipoAtaque("hachazo");
 		ogro.setVida(5);
 		

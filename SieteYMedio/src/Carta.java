@@ -8,11 +8,13 @@ public class Carta {
 	private String palo;
 	
 	//CONSTANTES
+	//las definimos public para que sean comunes a todas las clases,static para que sea accesible sin crear el objeto y final para crear la constante
 	public static final String BASTOS="BASTOS";
 	public static final String COPAS="COPAS";
 	public static final String ESPADAS="ESPADAS";
 	public static final String OROS="OROS";
-
+	//Una buena práctica es que el nombre de las constantes sea siempre en mayúsculas
+	
 	//Constructor
 	//Punto de entrada que se ejecuta al crear un objeto de tipo Carta
 	public Carta() {
@@ -41,7 +43,8 @@ public class Carta {
 
 	public void setPalo(String palo) {
 		this.palo = palo;//para distinguir el palo de la clase del palo del método
-	}
+	}//this.variable de la clase (palo de la clase) = variable que entra (palo que entra)
+	//Con lo que el palo de la clase será el palo que entre
 
 
 }

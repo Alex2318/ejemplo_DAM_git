@@ -1,5 +1,5 @@
 
-public class Jugador extends Personaje{
+public class Jugador extends Personaje{//==Jugador va a heredar todo lo de personaje
 
 	private int puntos=0;
 	public Jugador() {

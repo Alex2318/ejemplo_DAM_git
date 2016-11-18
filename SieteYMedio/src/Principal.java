@@ -41,7 +41,7 @@ public class Principal extends JFrame {
 		//tipo nombreVariable= new tipo();
 		Carta sieteBastos=new Carta();
 		sieteBastos.setNumero(-1);//Aunque la variable numero sea privada al hacer una llamada al metodo (público) con el seter, me aparece.
-		sieteBastos.setPalo(Carta.BASTOS);
+		sieteBastos.setPalo(Carta.BASTOS);//Al haber definido BASTOS como una constante podemos poner la constante junto a la clase Carta.BASTOS y lo convierte a "BASTOS", y no haría falta ni definir el objeto.
 		System.out.println("Tengo una carta que es el "+ sieteBastos.getNumero() + " de "+ sieteBastos.getPalo()) ; //En el print metemos el getter
 		
 		/* ESTO ESTÁ COMENTADO

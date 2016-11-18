@@ -1,8 +1,8 @@
 
-public class Mounstro extends Personaje{
+public class Monstruo extends Personaje{//==Mounstro va a heredar todo lo de Personaje
 
 	private String tipoAtaque="";
-	public Mounstro() {
+	public Monstruo() {
 		// TODO Auto-generated constructor stub
 	}
 	public String getTipoAtaque() {

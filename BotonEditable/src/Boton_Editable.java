@@ -41,24 +41,24 @@ public class Boton_Editable extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		contentPane.setLayout(null);//Layout absoluto
+		contentPane.setLayout(null);
 		
 		//Caja de texto 
 		caja = new JTextField();
-		caja.setText("Ed\u00EDtame");
-		caja.setEditable(false);//de salida la caja no es editable
+		caja.setEditable(false);
 		caja.setBounds(10, 11, 414, 20);
+		caja.setText("Ed\u00EDtame");
 		contentPane.add(caja);
 		caja.setColumns(10);
 		
 		//Botón
 		JButton boton_hacer_editable = new JButton("Aprieta para editar la caja anterior");
+		boton_hacer_editable.setBounds(10, 57, 414, 23);
 		boton_hacer_editable.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				caja.setEditable(true);//Introducimos el método setEditable dependiente de la acción de pulsar el botón
 			}
 		});
-		boton_hacer_editable.setBounds(10, 57, 414, 23);
 		contentPane.add(boton_hacer_editable);
 	}
 }
